@@ -5,6 +5,8 @@ description: Overview of ReleaseLoop subscription plans and what's included in e
 
 ReleaseLoop offers three subscription tiers designed for different team sizes and needs.
 
+![Billing page showing Solo, Team, and Label plan comparison](../../../assets/screenshots/billing.png)
+
 ## Plan comparison
 
 | | Solo | Team | Label |

@@ -5,6 +5,8 @@ description: How to create, edit, and organize your music releases in ReleaseLoo
 
 Releases are the core of ReleaseLoop. Each release represents a single, EP, or album and contains tracks, tasks, marketing activities, financials, and assets.
 
+![Releases page showing release cards with status, date, and artist info](../../../assets/screenshots/releases-list.png)
+
 ## Creating a release
 
 1. Click **New Release** from the releases page or dashboard
@@ -16,6 +18,8 @@ Releases are the core of ReleaseLoop. Each release represents a single, EP, or a
    - **UPC** -- Universal Product Code (optional)
    - **Catalogue number** -- your internal reference (optional)
 3. Click **Create**
+
+![Create new release dialog with title, artists, date, type, and template fields](../../../assets/screenshots/create-release.png)
 
 ## Viewing releases
 

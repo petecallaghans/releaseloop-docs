@@ -5,12 +5,16 @@ description: How to add and manage artists in your workspace.
 
 The Artists page lets you manage your full roster of artists, with profiles enriched from Spotify.
 
+![Artists page showing artist cards with profile photos and follower counts](../../../assets/screenshots/artists-list.png)
+
 ## Adding an artist
 
 1. Go to the **Artists** page
 2. Click **Add Artist**
 3. Search for the artist on Spotify, or create a profile manually
 4. If found on Spotify, the profile auto-populates with photo, follower count, and popularity
+
+![Add artist dialog with Spotify search results](../../../assets/screenshots/add-artist-spotify.png)
 
 :::tip
 Adding artists via Spotify search saves time and keeps your data in sync with their public profile.
@@ -30,6 +34,8 @@ Each artist profile includes:
 ## Artist detail page
 
 Click on any artist to see their detail page with three tabs:
+
+![Artist detail page showing profile, stats, and tabs](../../../assets/screenshots/artist-detail.png)
 
 ### Overview
 Core profile information, stats, and contact details. Edit any field directly from this view.

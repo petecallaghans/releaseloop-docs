@@ -5,6 +5,8 @@ description: How to use tasks to manage your release workflow.
 
 The **Tasks** tab on a release lets you create and manage a checklist of everything that needs to happen for a successful release.
 
+![Tasks tab showing phased task checklist with due dates and assignees](../../../assets/screenshots/release-tasks.png)
+
 ## Creating tasks
 
 1. Open a release and go to the **Tasks** tab

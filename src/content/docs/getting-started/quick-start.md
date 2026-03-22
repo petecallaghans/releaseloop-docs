@@ -22,6 +22,8 @@ During onboarding, you'll:
 
 Once your release is created, use the tabs on the release detail page:
 
+![Release detail page showing tabs for Tracks, Tasks, Assets, Discussion, Financials, Marketing, and Activity](../../../assets/screenshots/release-detail.png)
+
 | Tab | What it does |
 |-----|-------------|
 | **Tracks** | Add songs with ISRC codes and artist credits |

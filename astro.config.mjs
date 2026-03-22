@@ -9,8 +9,9 @@ export default defineConfig({
 		starlight({
 			title: 'ReleaseLoop Docs',
 			logo: {
-				src: './src/assets/logo.svg',
+				src: './src/assets/logo.png',
 			},
+			favicon: '/favicon.png',
 			customCss: ['./src/styles/custom.css'],
 			social: [
 				{ icon: 'x.com', label: 'X', href: 'https://x.com/releaseloop' },

@@ -5,6 +5,8 @@ description: How to use the calendar to visualize your release schedule and mark
 
 The Calendar page gives you a visual timeline of all your releases and marketing activities.
 
+![Calendar month view showing release dates and marketing activities](../../../assets/screenshots/calendar.png)
+
 ## Views
 
 The calendar supports two views:

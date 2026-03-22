@@ -42,6 +42,8 @@ Add initial marketing activities to your release:
 
 Once complete, you'll land on your **Dashboard** where you'll see:
 
+![Dashboard showing onboarding checklist, stats, upcoming releases, and tasks](../../../assets/screenshots/dashboard.png)
+
 - Your release statistics
 - Upcoming releases
 - An onboarding checklist tracking your progress

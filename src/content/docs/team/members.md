@@ -5,6 +5,8 @@ description: How to invite team members and manage roles in your workspace.
 
 ReleaseLoop supports collaborative workspaces where multiple team members can work together on releases.
 
+![Settings team members page showing member list and roles](../../../assets/screenshots/settings-team.png)
+
 ## Inviting team members
 
 1. Go to **Settings > Team Members**
