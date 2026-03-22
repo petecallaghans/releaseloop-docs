@@ -1,9 +1,9 @@
 ---
 title: Team Members & Roles
-description: How to invite team members and manage roles in your workspace.
+description: Invite your team and control who can access releases, financials, marketing, and more.
 ---
 
-ReleaseLoop supports collaborative workspaces where multiple team members can work together on releases.
+ReleaseLoop is built for teams. Invite your A&R, marketing, publicists, and management staff into your workspace so everyone works from the same release schedule and artist roster.
 
 ![Settings team members page showing member list and roles](../../../assets/screenshots/settings-team.png)
 
@@ -13,29 +13,29 @@ ReleaseLoop supports collaborative workspaces where multiple team members can wo
 2. Click **Invite Member**
 3. Enter their email address
 4. Select their role
-5. They'll receive an email invitation to join your workspace
+5. They will receive an email invitation to join your workspace
 
-You can also generate a **shareable invite link** for easier onboarding.
+You can also generate a **shareable invite link** -- useful when onboarding a new hire or bringing a freelance publicist into the workspace.
 
 ## Roles
 
-Each team member is assigned a role that determines what they can access:
+Each team member is assigned a role that controls what they can see and do. This lets you give your A&R team access to releases without them seeing financials, or let your publicist manage marketing activities without touching release metadata.
 
-| Role | Capabilities |
-|------|-------------|
-| **Owner** | Full control -- billing, team management, all features |
-| **Admin** | Manage releases, artists, contacts, and team members |
-| **A&R** | Manage releases and artists |
-| **Marketing** | Manage marketing activities |
-| **Member** | Limited access (view and basic edits) |
+| Role | What they can do |
+|------|-----------------|
+| **Owner** | Full control -- billing, team management, all features. Typically the label owner or lead manager. |
+| **Admin** | Manage releases, artists, contacts, and team members. Your operations lead or label manager. |
+| **A&R** | Manage releases and artists. Perfect for A&R reps who need to update metadata, manage tracks, and work with the roster. |
+| **Marketing** | Manage marketing activities. Your publicist, social media manager, or promo coordinator only needs this. |
+| **Member** | View access with basic edits. Good for interns, consultants, or anyone who needs visibility without full control. |
 
 ## Managing members
 
 From **Settings > Team Members** you can:
 
 - View all current members and their roles
-- Change a member's role
-- Remove a member from the workspace
+- Change a member's role -- e.g., promote someone from Member to A&R as they take on more responsibility
+- Remove a member from the workspace -- they immediately lose access to all data
 - See pending invitations
 - Revoke unaccepted invitations
 
@@ -49,13 +49,13 @@ The number of team members depends on your plan:
 | **Team** | 3 |
 | **Label** | 10 |
 
-You'll need to upgrade your plan if you hit the seat limit and want to add more members.
+If you need to add more people than your plan allows, you will need to upgrade. Solo artists working alone are covered on the Solo plan. Small teams with a couple of collaborators fit on Team. Labels with A&R, marketing, operations, and management staff should look at the Label plan.
 
 ## Joining via invitation
 
 When someone receives an invite:
 
 1. They click the link in the invitation email (or the shareable link)
-2. If they don't have a ReleaseLoop account, they'll create one
-3. They're added to the workspace with the assigned role
-4. The workspace appears in their workspace switcher
+2. If they do not have a ReleaseLoop account, they create one
+3. They are added to the workspace with the assigned role
+4. The workspace appears in their workspace switcher -- they can start working immediately

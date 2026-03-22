@@ -1,16 +1,16 @@
 ---
 title: Workspaces
-description: How workspaces work in ReleaseLoop and how to manage them.
+description: Keep your labels, imprints, or management clients organized in separate workspaces with fully isolated data.
 ---
 
-A workspace is your team's shared environment in ReleaseLoop. All releases, artists, contacts, and other data belong to a workspace.
+A workspace is your label's, imprint's, or management company's home in ReleaseLoop. All releases, artists, contacts, financials, and other data belong to a workspace -- and each workspace is completely separate.
 
 ## How workspaces work
 
 - Each user can belong to multiple workspaces
 - You have one **active workspace** at a time
-- All data you see (releases, artists, etc.) is scoped to your active workspace
-- Switching workspaces shows completely different data
+- All data you see -- releases, artists, contacts, financials -- is scoped to your active workspace
+- Switching workspaces shows completely different data, as if you logged into a different account
 
 ## Creating a workspace
 
@@ -30,15 +30,15 @@ Your first workspace is created during onboarding. To create additional workspac
 
 Go to **Settings > Workspace** to configure:
 
-- **Default currency** -- used for all financial data in the workspace
+- **Default currency** -- set to USD, GBP, EUR, or whatever currency you settle in. This applies to all financial data in the workspace including budgets, revenue, and payout statements.
 - **Workspace name** -- the display name shown in the switcher
 
-## Common use cases
+## Common setups
 
-- **One workspace per label** -- if you manage multiple labels, each gets its own workspace
-- **Separate clients** -- artist managers can create a workspace per client or keep all clients in one
-- **Personal vs. team** -- keep a personal workspace for solo projects and a shared one for team collaborations
+- **One workspace per label or imprint.** If you run multiple imprints, each one gets its own workspace with its own roster, release catalog, and financials. Your team members can be in one or both.
+- **One workspace per management client.** Artist managers who handle multiple acts can keep each artist's releases and contacts separate -- or consolidate everything into a single workspace for a combined view.
+- **Personal plus team.** Keep a personal workspace for your own solo projects and a shared workspace for your label or management team.
 
 ## Data isolation
 
-Workspaces are fully isolated. Team members in one workspace cannot see data from another workspace unless they're also members of that workspace.
+Workspaces are fully isolated. Your A&R team working in your main label workspace cannot see anything from your side-project imprint workspace unless they are also members of that workspace. This means you can safely give people access to one part of your business without exposing another.

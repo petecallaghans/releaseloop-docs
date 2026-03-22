@@ -1,9 +1,9 @@
 ---
 title: Royalty Imports
-description: How to import distributor royalty CSV files and match them to your releases.
+description: Import royalty CSVs from DistroKid, TuneCore, CD Baby, and other distributors, then automatically match earnings to your releases and tracks.
 ---
 
-ReleaseLoop lets you import royalty statements from any distributor as CSV files and automatically matches them to your releases and tracks.
+Distributors send you royalty statements as CSV files, but making sense of them -- especially across multiple distributors, hundreds of tracks, and several reporting periods -- is a headache. ReleaseLoop lets you import those CSVs directly and automatically matches each row to the right release and track so revenue shows up where it belongs.
 
 :::note
 Royalty imports require a **Team** or **Label** plan.
@@ -11,11 +11,11 @@ Royalty imports require a **Team** or **Label** plan.
 
 ## How it works
 
-1. Export a royalty/sales report CSV from your distributor
+1. Export a royalty or sales report CSV from your distributor (DistroKid, TuneCore, CD Baby, Ditto, AWAL, Stem, The Orchard -- any distributor that provides CSV exports)
 2. Import it into ReleaseLoop
-3. Map the distributor's columns to ReleaseLoop fields
-4. ReleaseLoop matches rows to your releases and tracks
-5. Revenue appears in release financials
+3. Map the distributor's column headers to ReleaseLoop fields using the column mapper
+4. ReleaseLoop matches each row to your releases and tracks using ISRCs, UPCs, and catalogue numbers
+5. Matched revenue automatically appears in each release's Financials tab
 
 ## Importing a CSV
 
@@ -26,41 +26,49 @@ Royalty imports require a **Team** or **Label** plan.
 
 ## Column mapping
 
-Distributors all use different column names. The import wizard shows your CSV's columns and lets you map them to ReleaseLoop fields:
+Every distributor formats their CSV differently -- what DistroKid calls "ISRC" might be "Track ISRC" in TuneCore or buried in a differently named column in CD Baby. The import wizard displays your CSV's columns and lets you map each one to the corresponding ReleaseLoop field:
 
-- **ISRC** -- maps to track ISRC for track-level matching
-- **UPC** -- maps to release UPC for release-level matching
-- **Catalogue number** -- maps to release catalogue number
-- **Revenue/Amount** -- the earnings amount
-- **Currency** -- the currency of the earnings
-- **Period** -- the reporting period
+- **ISRC** -- the International Standard Recording Code for track-level matching. This is the most reliable identifier because it's unique to each recording.
+- **UPC** -- the barcode number on your release, used for release-level matching
+- **Catalogue number** -- your internal catalogue number, used as a fallback for release matching
+- **Revenue/Amount** -- the earnings amount for each row
+- **Currency** -- the currency the earnings are reported in
+- **Period** -- the reporting period (month, quarter, etc.)
 
-ReleaseLoop auto-suggests mappings for common distributor formats, but you can adjust them manually.
+ReleaseLoop auto-suggests mappings for common distributor formats so you usually won't need to map every column manually. But if your distributor uses non-standard headers, you can adjust the mappings yourself.
 
 ## Matching logic
 
-Once columns are mapped, ReleaseLoop matches each row to your releases using this priority:
+Once columns are mapped, ReleaseLoop matches each row to your catalogue using this priority order:
 
-1. **ISRC** -- matched to a track, which links to its release
-2. **UPC** -- matched directly to a release
-3. **Catalogue number** -- matched directly to a release
+1. **ISRC** -- matched to a track, which links to its parent release. ISRCs are how distributors identify your recordings -- without them, royalty revenue can't be matched at the track level.
+2. **UPC** -- matched directly to a release. This catches revenue reported at the release level rather than the track level.
+3. **Catalogue number** -- matched directly to a release using your internal numbering system.
 
-For best results, make sure your releases and tracks have ISRCs, UPCs, and catalogue numbers filled in.
+For the best match rates, make sure your releases have UPCs and catalogue numbers filled in, and that every track has its ISRC entered. You'll find these fields on the release detail page and in each track's settings. If your match rate is low after an import, missing ISRCs or UPCs are almost always the reason.
 
 ## Unmatched rows
 
-Rows that can't be matched to any release or track are stored as **unmatched**. You can:
+Rows that can't be matched to any release or track are stored as **unmatched**. This happens when:
 
-- View all unmatched rows in the **Unmatched** tab
-- Manually link them to a release or track retroactively
-- This is useful when you import royalties before creating the corresponding release
+- An ISRC or UPC in the CSV doesn't exist in your ReleaseLoop catalogue yet
+- The distributor reports revenue for a track you haven't added
+- There's a typo or formatting difference in the identifier
+
+You can handle unmatched rows by:
+
+- Viewing them in the **Unmatched** tab
+- Manually linking them to the correct release or track
+- Coming back later after you've added the missing release -- the unmatched rows will be waiting for you
+
+This is particularly useful when royalties arrive before you've had a chance to set up the corresponding release in ReleaseLoop, which happens often when back-catalogue earnings come through.
 
 ## Import history
 
-The **Imports** tab shows all previous imports with:
+The **Imports** tab keeps a full record of every import you've run:
 
 - File name and import date
 - Number of rows imported
 - Number of matched vs. unmatched rows
 
-You can review past imports at any time.
+Use this to keep track of which reporting periods you've already imported and to spot any imports with unusually high unmatched counts that might need attention.
