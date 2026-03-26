@@ -17,7 +17,7 @@ ReleaseLoop offers four subscription tiers designed for how the music industry a
 | **Releases** | 15 | 30 | 150 | Unlimited |
 | **Artists** | 5 | 15 | 75 | Unlimited |
 | **Contacts** | 100 | 500 | 1,000 | Unlimited |
-| **EPKs** | 5 | 25 | 50 | Unlimited |
+| **EPKs** | 5 | 15 | 75 | Unlimited |
 | **Storage** | 1 GB | 5 GB | 25 GB | 100 GB |
 
 ## Feature availability by plan
@@ -41,7 +41,7 @@ ReleaseLoop offers four subscription tiers designed for how the music industry a
 
 ### Label plan adds
 - **Payout statements** -- generate statements so you can settle with your artists quarterly, monthly, or on whatever schedule you agree to
-- 150 releases, 75 artists, 1,000 contacts, 50 EPKs
+- 150 releases, 75 artists, 1,000 contacts, 75 EPKs
 - 10 team seats
 - **Priority support** -- faster response times when you need help
 
