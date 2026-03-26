@@ -6,7 +6,7 @@ description: Batch-generate branded royalty statements for all your artists, del
 When royalties come in from your distributors, artist statements are how you close the loop. Instead of generating payout info release by release, statements roll up everything an artist earned across your entire catalogue for a given date range -- then package it into a branded PDF you can email directly from ReleaseLoop.
 
 :::note
-Artist statements require a **Team** or **Label** plan.
+Artist statements are available on the **Solo plan and above**. Solo is limited to 3 statements per quarter. Custom branding (your logo, colours, and terms) requires a **Team plan or above**.
 :::
 
 ## Overview
@@ -17,7 +17,7 @@ The Statements tab (within Royalties) lets you:
 - **Review and edit** each draft before sending
 - **Send branded PDFs** by email, with a link to the artist's personal portal
 - **Track payment status** and send payment confirmation emails when you mark statements as paid
-- **Customise branding** so statements look like they came from your label, not generic software
+- **Customise branding** so statements look like they came from your label, not generic software (Team and above)
 
 ## Setting up branding
 
