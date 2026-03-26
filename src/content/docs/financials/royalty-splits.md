@@ -19,6 +19,8 @@ Royalty splits require a **Team** or **Label** plan.
 
 When you add a stakeholder, you can either pick from suggestions (your release artists, plus common roles like Label, Manager, Producer, Publisher, Writer) or type any name you want. The name field is free-text, so you're not limited to predefined roles.
 
+Each stakeholder also has an optional **email** field. This is used for [artist statement delivery](/financials/artist-statements/) -- when you send a statement, it goes to the email on the split entry. For artists on your roster, the email is auto-populated from their artist profile. For custom stakeholders (producers, writers, external collaborators), you'll need to enter it manually. If no email is set, the workspace owner's email is used as a fallback.
+
 ## Using individual names vs. generic roles
 
 You have full flexibility in how you name stakeholders. Both approaches work -- pick whichever makes your accounting clearer.

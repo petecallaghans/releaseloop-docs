@@ -51,6 +51,7 @@ export default defineConfig({
 						{ label: 'Budgets & Revenue', slug: 'financials/budgets' },
 						{ label: 'Royalty Splits', slug: 'financials/royalty-splits' },
 						{ label: 'Royalty Imports', slug: 'financials/royalty-imports' },
+						{ label: 'Artist Statements', slug: 'financials/artist-statements' },
 						{ label: 'Payout Statements', slug: 'financials/payouts' },
 					],
 				},

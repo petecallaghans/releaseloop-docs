@@ -3,6 +3,12 @@ title: Payout Statements
 description: Generate payout statements for your artists based on imported royalty data so you can reconcile what's owed each quarter.
 ---
 
+:::note
+**Looking for artist statements?** The newer [Artist Statements](/financials/artist-statements/) feature is the recommended way to handle royalty payouts. It batch-generates branded PDF statements across all artists, delivers them by email, and gives artists a portal to view their history. It's available on the Team plan and above.
+
+This page covers the per-release payout view, which is useful for reviewing individual release financials.
+:::
+
 If you run a label or manage multiple artists, you know the drill: royalties come in from distributors, and you need to figure out who gets what. Payout statements in ReleaseLoop take the royalty data you've already imported and calculate what's owed to each artist -- so you can stop wrestling with spreadsheets and start sending accurate statements on a regular schedule.
 
 :::note
