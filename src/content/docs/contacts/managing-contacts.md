@@ -61,4 +61,5 @@ Contacts can be linked to specific releases, which ties your promo work directly
 |------|--------------|
 | **Solo** | 100 |
 | **Team** | 500 |
-| **Label** | Unlimited |
+| **Label** | 1,000 |
+| **Label Pro** | Unlimited |

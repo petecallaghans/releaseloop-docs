@@ -71,5 +71,6 @@ The number of artists you can add depends on your plan:
 | Plan | Artist limit |
 |------|-------------|
 | **Solo** | 5 |
-| **Team** | 25 |
-| **Label** | Unlimited |
+| **Team** | 15 |
+| **Label** | 75 |
+| **Label Pro** | Unlimited |

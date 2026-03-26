@@ -4,7 +4,7 @@ description: Generate payout statements for your artists based on imported royal
 ---
 
 :::note
-**Looking for artist statements?** The newer [Artist Statements](/financials/artist-statements/) feature is the recommended way to handle royalty payouts. It batch-generates branded PDF statements across all artists, delivers them by email, and gives artists a portal to view their history. It's available on the Team plan and above.
+**Looking for artist statements?** The newer [Artist Statements](/financials/artist-statements/) feature is the recommended way to handle royalty payouts. It batch-generates branded PDF statements across all artists, delivers them by email, and gives artists a portal to view their history. It's available on all paid plans (Solo gets 3 per quarter; Team and above get unlimited statements).
 
 This page covers the per-release payout view, which is useful for reviewing individual release financials.
 :::

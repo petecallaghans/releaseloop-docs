@@ -6,7 +6,7 @@ description: Create shareable EPK pages for booking agents, promoters, press, an
 An Electronic Press Kit (EPK) is a public-facing profile page for an artist that you can send to booking agents, promoters, venues, press outlets, sync supervisors, and anyone else who needs a professional overview of the act. Instead of assembling a one-off PDF or email with scattered links, you share a single URL that always has the latest info.
 
 :::note
-EPKs require a **Solo** plan or higher. The number of EPKs depends on your plan (5 on Solo, 25 on Team, unlimited on Label).
+EPKs require a **Solo** plan or higher. The number of EPKs depends on your plan (5 on Solo, 25 on Team, 50 on Label, unlimited on Label Pro).
 :::
 
 ## Creating an EPK

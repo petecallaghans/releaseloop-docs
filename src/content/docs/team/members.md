@@ -48,8 +48,9 @@ The number of team members depends on your plan:
 | **Solo** | 1 |
 | **Team** | 3 |
 | **Label** | 10 |
+| **Label Pro** | 25 |
 
-If you need to add more people than your plan allows, you will need to upgrade. Solo artists working alone are covered on the Solo plan. Small teams with a couple of collaborators fit on Team. Labels with A&R, marketing, operations, and management staff should look at the Label plan.
+If you need to add more people than your plan allows, you will need to upgrade. Solo artists working alone are covered on the Solo plan. Small teams with a couple of collaborators fit on Team. Labels with A&R, marketing, operations, and management staff should look at the Label or Label Pro plan.
 
 ## Joining via invitation
 
