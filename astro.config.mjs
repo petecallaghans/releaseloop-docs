@@ -67,6 +67,7 @@ export default defineConfig({
 					label: 'Contacts',
 					items: [
 						{ label: 'Managing Contacts', slug: 'contacts/managing-contacts' },
+						{ label: 'Importing Contacts from CSV', slug: 'contacts/importing-contacts' },
 						{ label: 'Tracking Interactions', slug: 'contacts/interactions' },
 					],
 				},
