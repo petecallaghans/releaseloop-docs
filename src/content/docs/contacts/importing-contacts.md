@@ -22,11 +22,12 @@ If you're building your list from scratch, click **Download template** on the up
 
 After upload, you match each column in your file to a ReleaseLoop contact field. The importer auto-suggests a mapping based on your column headers (for example, a column called "E-mail Address" maps to **Email**), so most files need little or no adjustment. Anything you don't want to import, set to **Skip**.
 
-**Name** is the only required field. Every other field is optional:
+Every row needs a **Name**, but you can supply **First Name** / **Last Name** instead and the importer will build the Name from them. Every other field is optional:
 
 | Field | Notes |
 |-------|-------|
-| Name | Required. Rows without a name are skipped. |
+| Name | Required, but see First/Last below. Rows with no name are skipped. |
+| First Name, Last Name | Optional. If a row has these but no Name column, the importer builds the Name from them, so a first/last-only file still imports. |
 | Email | Used to detect duplicates. |
 | Phone, Company, Role | Plain text. |
 | Category | Matched to your category list -- see below. |

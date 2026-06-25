@@ -33,7 +33,7 @@ Each artist profile stores the information you actually need day to day:
 
 ## Artist detail page
 
-Click on any artist to open their detail page with three tabs:
+Click on any artist to open their detail page with four tabs:
 
 ![Artist detail page showing profile, stats, and tabs](../../../assets/screenshots/artist-detail.png)
 
@@ -42,6 +42,9 @@ Core profile information, streaming stats, and contact details. Edit any field d
 
 ### Discography
 All releases featuring this artist. You can also import their Spotify discography to pre-populate your release catalog -- helpful when onboarding a new signing whose back catalog you need to track.
+
+### Support
+A table of every contact who has supported or covered this artist -- the stations that played them, the blogs that featured them, the playlists that added them. Each row shows the contact, company, interaction type, coverage type, outcome, date, and a link to the coverage. Click **Log support** to add a new entry (the artist is pre-set; just pick the contact), or use the edit button on any row to tweak it without leaving the page. Entries here are the same records as the contact's interaction timeline. See [Tracking Interactions](/contacts/interactions/) for how support is logged.
 
 ### EPK
 The artist's [Electronic Press Kit](/artists/epks/) -- a public profile page you can share with booking agents, promoters, venues, press, and anyone who needs a professional overview of the artist.

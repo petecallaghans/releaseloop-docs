@@ -10,7 +10,8 @@ The Contacts page is your industry CRM -- the place to track every playlist cura
 1. Go to the **Contacts** page
 2. Click **Add Contact**
 3. Fill in their details:
-   - **Name** -- the contact's full name
+   - **First name** and **Last name** -- the contact's name split into parts (optional). As you type them, the **Name** field fills in automatically as "First Last".
+   - **Name** -- the contact's full display name. This is what shows everywhere (lists, search, EPKs). It is auto-filled from first/last, but you can edit it directly -- handy for companies or outlets that are not a person (e.g. "Pitchfork"). Once you edit it by hand, first/last stop overwriting it.
    - **Email** -- their primary email (the one you actually pitch to)
    - **Phone** -- phone number (optional)
    - **Company** -- their outlet, label, agency, or platform (optional)
