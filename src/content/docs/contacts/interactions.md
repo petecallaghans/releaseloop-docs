@@ -10,10 +10,27 @@ Every contact in ReleaseLoop has an interaction timeline -- a running log of you
 1. Open a contact's detail page
 2. Scroll to the **Interactions** section
 3. Click **Add Interaction**
-4. Enter what happened -- the release you pitched, their response, any follow-up they requested, and next steps
-5. The interaction is timestamped and added to the timeline
+4. Enter what happened -- the type (pitch, follow-up, coverage, etc.), the date, the outcome, and any notes
+5. Optionally link it to a **Release** and/or an **Artist** so the interaction shows up against that release and on the artist's Support tab
+6. The interaction is timestamped and added to the timeline
 
 For example: you pitched a new single to a playlist curator, they asked to hear it after mastering is done, and you need to follow up next Friday. Log that now so it does not slip through the cracks.
+
+### Coverage type
+
+When you set the type to **Coverage**, two extra fields appear:
+
+- **Coverage type** -- the medium of the coverage: Radio, Press / Blog, Interview, Playlist, Podcast, TV / Video, Social, or Other. Optional, but it makes past support easy to skim later.
+- **Coverage Link** -- a URL to the article, playlist, episode, or post.
+
+## Logging past support
+
+To record that a contact has covered or supported an artist before ("this station has played Artist X", "this blog featured them last year"), link the interaction to the **Artist**. You can do this two ways:
+
+- From the **contact** -- add an interaction and pick the artist in the Artist field.
+- From the **artist** -- open the artist, go to the **Support** tab, and click **Log support**. The artist is set for you; just pick the contact.
+
+Either way it is one record, so it appears on both the contact's timeline and the artist's Support tab.
 
 ## Interaction timeline
 
