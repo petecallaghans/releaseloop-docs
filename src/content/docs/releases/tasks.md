@@ -24,6 +24,18 @@ The **Tasks** tab on a release is your checklist for everything that needs to ha
 - **Assign** -- tasks are color-coded by assignee for easy scanning across a busy release
 - **Bulk actions** -- mark all tasks complete or delete all at once
 
+## Subtasks (checklists on a task)
+
+Big tasks usually hide several smaller steps. A task like "Record music video" might involve finding a location, doing a trial run, picking outfits, and storyboarding. Instead of cluttering your task list, add those steps as a checklist on the task itself:
+
+1. Open a task (click it in any task list)
+2. In the **Checklist** section, type an item and press **Enter** -- or paste a multi-line list to add several items at once
+3. Tick items off as you go; drag to reorder, click an item's text to rename it
+
+Tasks with a checklist show a progress chip (e.g. **2/5**) in every task list. Click the chip to expand the checklist inline and tick items without opening the task. On the Tasks page, the **Subtasks** toggle in the filter bar expands or collapses every checklist at once.
+
+If a checklist item grows into something bigger, hover it and use **Convert to task** -- it becomes a standalone task linked to the same release, artist, or contact. Duplicating a task also copies its checklist (with all items reset to unticked).
+
 ## Importing from templates
 
 If you have [release templates](/templates/release-templates/) set up, you can import a full task checklist into any release in seconds:
