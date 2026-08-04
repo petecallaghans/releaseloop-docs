@@ -1,21 +1,53 @@
 ---
 title: Tasks & Checklists
-description: Build release checklists that cover every step from mastering to marketing -- and make sure nothing gets missed.
+description: Build release checklists, break work into subtasks, and manage every task -- for releases, artists, contacts, or anything else -- from one board.
 ---
 
-The **Tasks** tab on a release is your checklist for everything that needs to happen before, during, and after drop day. Whether it is booking mastering, submitting to your distributor, pitching Spotify editorial playlists, or scheduling social content -- it all lives here.
+Tasks are how work gets done in ReleaseLoop. Whether it is booking mastering, submitting to your distributor, pitching Spotify editorial playlists, or chasing a contract back from a manager -- it all lives in tasks.
+
+A task can be linked to a **release**, an **artist**, a **contact**, or nothing at all. Release checklists still live on the release's **Tasks** tab, but you are no longer limited to release work: create a standalone to-do for artist-management admin, or a follow-up tied to a contact, and see everything together on the Tasks page.
 
 ![Tasks tab showing phased task checklist with due dates and assignees](../../../assets/screenshots/release-tasks.png)
 
+## The Tasks page
+
+The **Tasks** page in the sidebar shows every task in your workspace, in two views:
+
+- **List** -- tasks grouped by due date, so today's deadlines float to the top
+- **Board** -- a kanban board for dragging tasks through statuses
+
+Narrow things down with the filter bar: **Artist**, **Release**, **Contact**, **Assignee**, and **Status** filters, plus a **My tasks** toggle that shows only work assigned to you. The **Subtasks** toggle expands or collapses every checklist at once.
+
+Clicking a task anywhere in the app opens it in the task editor, where you can update it, re-link it to a different release, artist, or contact, or delete it.
+
+## Task contexts
+
+When creating a task you choose what it is attached to:
+
+- **Release** -- classic release checklist work. These tasks also appear on the release's Tasks tab.
+- **Artist** -- roster work that is not tied to one release: renegotiate a contract, update an EPK, book a photoshoot. These appear on the artist's **Tasks** tab too.
+- **Contact** -- follow-ups tied to a person or company: chase a playlist curator, reply to a booking inquiry.
+- **None** -- a general workspace to-do.
+
+You can re-link a task between contexts at any time from the task editor.
+
+Tasks with a due date also appear on the [Calendar](/templates/calendar/), alongside release dates and marketing activities.
+
 ## Creating tasks
+
+From a release:
 
 1. Open a release and go to the **Tasks** tab
 2. Click **Add Task** or press **T** as a keyboard shortcut
-3. Fill in:
-   - **Title** -- what needs to happen (e.g., "Submit final masters to DistroKid," "Send press release to blog contacts," "Schedule Instagram teaser 2 weeks before drop day")
-   - **Assignee** -- which team member is responsible (optional). On a label, you might assign distributor delivery to your ops person, playlist pitching to your marketing lead, and artwork approval to the artist's manager.
-   - **Due date** -- when it should be completed (optional). Work backwards from your release date -- most distributors need assets 3-4 weeks before street date, and Spotify editorial pitching opens 4 weeks out.
-   - **Priority** -- the importance level
+
+Or from the Tasks page, where the create dialog lets you pick the context (release, artist, contact, or none).
+
+Fill in:
+
+- **Title** -- what needs to happen (e.g., "Submit final masters to DistroKid," "Send press release to blog contacts," "Schedule Instagram teaser 2 weeks before drop day")
+- **Assignee** -- which team member is responsible (optional). On a label, you might assign distributor delivery to your ops person, playlist pitching to your marketing lead, and artwork approval to the artist's manager.
+- **Due date** -- when it should be completed (optional). Work backwards from your release date -- most distributors need assets 3-4 weeks before street date, and Spotify editorial pitching opens 4 weeks out.
+- **Priority** -- the importance level
 
 ## Working with tasks
 
@@ -62,3 +94,4 @@ Configure notification preferences in **Settings > Notifications**. This is espe
 - Use templates to standardize your release workflow so every release gets the same level of attention
 - Assign tasks to specific team members so nothing falls through the cracks -- especially critical steps like submitting metadata or clearing samples
 - The dashboard shows urgent tasks across all releases in one place, so you can see at a glance what needs attention today across your entire roster
+- Use artist tasks for roster admin that has no release attached -- contract renewals, EPK refreshes, photoshoot bookings -- so it stops living in your head or a separate notes app
