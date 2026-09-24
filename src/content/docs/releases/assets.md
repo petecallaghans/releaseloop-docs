@@ -38,9 +38,8 @@ File storage is limited by your subscription plan:
 
 | Plan | Storage |
 |------|---------|
-| **Solo** | 1 GB |
-| **Team** | 5 GB |
-| **Label** | 25 GB |
-| **Label Pro** | 100 GB |
+| **Solo Lifetime** | 1 GB |
+| **Label Lifetime** | 25 GB |
+| **Agency / Pro Lifetime** | 100 GB |
 
 Your current storage usage is visible on the billing page. If you primarily use Google Drive for large files like master WAVs, the Drive integration lets you link those files without counting against your ReleaseLoop storage.

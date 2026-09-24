@@ -60,7 +60,6 @@ Contacts can be linked to specific releases, which ties your promo work directly
 
 | Plan | Contact limit |
 |------|--------------|
-| **Solo** | 100 |
-| **Team** | 500 |
-| **Label** | 1,000 |
-| **Label Pro** | Unlimited |
+| **Solo Lifetime** | 100 |
+| **Label Lifetime** | 1,000 |
+| **Agency / Pro Lifetime** | Unlimited |

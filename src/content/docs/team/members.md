@@ -64,12 +64,14 @@ The number of team members depends on your plan:
 
 | Plan | Seats |
 |------|-------|
-| **Solo** | 1 |
-| **Team** | 3 |
-| **Label** | 10 |
-| **Label Pro** | 25 |
+| **Solo Lifetime** | 1 |
+| **Label Lifetime** | 3 |
+| **Agency / Pro Lifetime** | 10 |
 
-If you need to add more people than your plan allows, you will need to upgrade. Solo artists working alone are covered on the Solo plan. Small teams with a couple of collaborators fit on Team. Labels with A&R, marketing, operations, and management staff should look at the Label or Label Pro plan.
+If you need more seats than your plan includes, you have two options:
+
+- **Buy additional seats.** Lifetime workspaces can purchase extra team seats as a one-time add-on from the **Billing** page -- pick a quantity, see your projected seat limit, and check out. No plan change needed.
+- **Upgrade your plan.** Moving to a higher tier raises the included seat count along with all other limits. See [Plans & Pricing](/billing/plans/).
 
 ## Joining via invitation
 

@@ -26,7 +26,7 @@ No more scattered spreadsheets for tracking distributor deadlines, royalty split
 - **Contacts** -- Your industry contact database and interaction tracking
 - **Templates & Calendar** -- Reusable release checklists and a calendar view of your schedule
 - **Team & Workspace** -- Inviting collaborators and configuring workspace settings
-- **Billing & Plans** -- Subscription tiers, feature limits, and plan upgrades
+- **Billing & Plans** -- Lifetime tiers, feature limits, and plan upgrades
 - **Integrations** -- Spotify and Google Drive connections
 
 ## Next steps
