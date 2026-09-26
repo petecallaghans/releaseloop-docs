@@ -27,7 +27,7 @@ No more scattered spreadsheets for tracking distributor deadlines, royalty split
 - **Templates & Calendar** -- Reusable release checklists and a calendar view of your schedule
 - **Team & Workspace** -- Inviting collaborators and configuring workspace settings
 - **Billing & Plans** -- Lifetime tiers, feature limits, and plan upgrades
-- **Integrations** -- Spotify and Google Drive connections
+- **Integrations** -- Spotify, Google Drive, and AI assistants (MCP)
 
 ## Next steps
 
