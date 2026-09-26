@@ -1,68 +1,68 @@
 ---
 title: MCP example prompts
-description: Prompts you can paste into Claude, Muse Code, or Grok after you connect ReleaseLoop with an API key from Settings.
+description: Prompts you can paste into Claude, Muse, or Grok after you connect ReleaseLoop with an API key from Settings.
 ---
 
-These prompts assume you already connected the assistant with an API key from [Settings](/integrations/mcp/). The tools are the same in every client. Connection is not. Claude, Muse Code, and Grok can use the hosted MCP URL and that key. ChatGPT's connector still needs the OAuth consent flow this build does not ship, so the ChatGPT prompts apply only after that login works.
+These prompts assume you already connected the assistant with an API key from [Settings → Integrations](/integrations/mcp/). Paste them into Claude, Muse, or Grok. ChatGPT's connector still needs an OAuth consent flow this server does not offer, so the ChatGPT prompts apply only after that login works.
 
-Ask for one workspace by name when you belong to several. The server will not guess.
+If you belong to more than one workspace, name the one you mean. The assistant will not guess.
 
 ## Claude
 
 List what you can see.
 
 ```text
-Call list_workspaces, then list the scheduled releases in my only workspace. If I belong to more than one, stop and ask which workspace.
+Open my workspace, then list the scheduled releases. If I belong to more than one, stop and ask which workspace.
 ```
 
 Open one release.
 
 ```text
-Find the release titled Night Bus and call read_release. Summarize the tracks, open tasks, marketing activities, and budget. If marketing or budget says access hidden, say I cannot see that section.
+Open the release titled Night Bus. Summarize the tracks, open tasks, marketing, and budget. If you cannot see marketing or budget, tell me I do not have access to that section.
 ```
 
-Create a draft, then retry without duplicating it.
+Create a draft, then try again without making a second copy.
 
 ```text
-Create a draft release titled Night Bus for artist Ada with release date 2026-10-16. Use idempotency key 6ba7b810-9dad-11d1-80b4-00c04fd430c8. Then call create_release again with the same key and the same fields, and tell me whether the outcome is created or existing.
+Create a draft release titled Night Bus for artist Ada, out on 16 October 2026. Then try to create that same release again, and tell me whether you made a new one or kept the first.
 ```
 
 Add a task on that release.
 
 ```text
-Create a task named Pitch playlists on the Night Bus release. Put phase Marketing on the release context. Status todo. Use a new idempotency key. Do not attach the task to an artist.
+On the Night Bus release, add a Marketing task called Pitch playlists. Leave it to do. Keep it on the release, not on the artist.
 ```
 
 ## ChatGPT
 
-Use these only after the connector can finish its own login and obtain access as you. Pasting an API key does not complete that step. The tool calls are the same as Claude.
+Use these only after ChatGPT can sign you in. An API key does not complete that step. The requests are the same ones you would give Claude.
 
 ```text
-List my ReleaseLoop workspaces. Then list contacts in the workspace I name. If the result is access hidden, tell me I do not have contacts permission. Do not invent contact rows.
+List my ReleaseLoop workspaces. Then list the contacts in the workspace I name. If I am not allowed to see contacts, say so. Do not make up any contacts.
 ```
 
 ```text
-Update the Night Bus release status to scheduled. Do not send deal terms, owner share, or file ids. If the tool rejects a field, stop and tell me which field.
+Move the Night Bus release to scheduled. Leave deal terms, owner share, and files alone. If you cannot change something, stop and tell me what it was.
 ```
 
-## Muse Code
+## Muse
 
-Muse Code uses the same tools against the hosted URL, with the API key from Settings.
+Muse uses the hosted URL and the API key from Settings.
 
 ```text
-List royalty imports in my workspace. If they are hidden, stop. If they are visible, call list_royalties again with one import id and summarize matched rows. Do not ask for raw file contents.
+Show the royalty imports in my workspace. If I cannot see royalties, stop. If I can, open one import and summarize the rows that matched a release. Leave the raw file alone.
 ```
 
 ```text
-Create a workspace task named Book photographer with context type none, status todo, and a fresh idempotency key. Then update that task to in_progress. Do not set phase. Phase is only valid on a release task.
+Add a to-do called Book photographer. It is not tied to a release, an artist, or a contact, and it starts as to do. Then mark it in progress. Do not give it a phase. Phases belong on release tasks.
 ```
 
 ## Grok
 
 ```text
-List artists whose name contains Ada. Then create a draft release titled Harbor Lights on 2026-11-01 using that artist id when you have one, plus the artist display name. Use idempotency key 6ba7b811-9dad-11d1-80b4-00c04fd430c8. If I have two workspaces, ask me which one before you write.
+Find artists whose name contains Ada. Then create a draft release called Harbor Lights for 1 November 2026 for that artist, and put their name on the release. If I have two workspaces, ask which one before you create it.
 ```
 
 ```text
-Show tasks on the Harbor Lights release that are still todo. Mark the mastering task done if it exists. Do not delete anything. There is no delete tool.
+Show the to-do tasks on the Harbor Lights release. If there is a mastering task, mark it done. Do not delete anything.
 ```
