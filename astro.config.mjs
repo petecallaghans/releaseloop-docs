@@ -98,6 +98,8 @@ export default defineConfig({
 					items: [
 						{ label: 'Google Drive', slug: 'integrations/google-drive' },
 						{ label: 'Spotify', slug: 'integrations/spotify' },
+						{ label: 'AI assistants (MCP)', slug: 'integrations/mcp' },
+						{ label: 'MCP example prompts', slug: 'integrations/mcp-prompts' },
 					],
 				},
 			],
