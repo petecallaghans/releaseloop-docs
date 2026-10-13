@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "releaseloop-docs",
+  "account_id": "1be9e8169e4986ce04e9fe96c9abc87c",
+  "compatibility_date": "2026-10-13",
+  "workers_dev": true,
+  "preview_urls": true,
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}
