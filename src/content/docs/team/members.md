@@ -60,18 +60,16 @@ From **Settings > Team Members** you can:
 
 ## Seat limits
 
-The number of team members depends on your plan:
+Each lifetime seat ($49, one-time) is one team member. Your workspace can have as many members as the seats you have bought. Workspaces on the [older tiered plans](/billing/plans/#older-tiered-lifetime-plans) include a fixed number of seats:
 
 | Plan | Seats |
 |------|-------|
+| **Lifetime seats** | As many as you buy |
 | **Solo Lifetime** | 1 |
 | **Label Lifetime** | 3 |
 | **Agency / Pro Lifetime** | 10 |
 
-If you need more seats than your plan includes, you have two options:
-
-- **Buy additional seats.** Lifetime workspaces can purchase extra team seats as a one-time add-on from the **Billing** page -- pick a quantity, see your projected seat limit, and check out. No plan change needed.
-- **Upgrade your plan.** Moving to a higher tier raises the included seat count along with all other limits. See [Plans & Pricing](/billing/plans/).
+Need more seats? Buy them from the **Billing** page at any time: pick a quantity, see your new seat limit, and check out. No plan change needed. See [Plans & Pricing](/billing/plans/).
 
 ## Joining via invitation
 
