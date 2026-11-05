@@ -58,8 +58,11 @@ Contacts can be linked to specific releases, which ties your promo work directly
 
 ## Plan limits
 
+Lifetime access ($49 per seat) includes **unlimited contacts**. Workspaces on the [older tiered plans](/billing/plans/#older-tiered-lifetime-plans) keep these limits:
+
 | Plan | Contact limit |
 |------|--------------|
+| **Lifetime seats** | Unlimited |
 | **Solo Lifetime** | 100 |
 | **Label Lifetime** | 1,000 |
 | **Agency / Pro Lifetime** | Unlimited |

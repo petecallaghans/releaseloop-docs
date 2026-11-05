@@ -6,7 +6,7 @@ description: Create shareable EPK pages for booking agents, promoters, press, an
 An Electronic Press Kit (EPK) is a public-facing profile page for an artist that you can send to booking agents, promoters, venues, press outlets, sync supervisors, and anyone else who needs a professional overview of the act. Instead of assembling a one-off PDF or email with scattered links, you share a single URL that always has the latest info.
 
 :::note
-EPKs are available on all plans. The number of EPKs depends on your plan (5 on Solo Lifetime, 75 on Label Lifetime, unlimited on Agency / Pro Lifetime).
+EPKs are available on all plans. Lifetime seats include unlimited EPKs. On the [older tiered plans](/billing/plans/#older-tiered-lifetime-plans), Solo Lifetime allows 5, Label Lifetime 75, and Agency / Pro Lifetime unlimited.
 :::
 
 ## Creating an EPK

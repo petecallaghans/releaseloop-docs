@@ -94,10 +94,11 @@ Artists can be deleted from their detail page, but only if they have no linked r
 
 ## Plan limits
 
-The number of artists you can add depends on your plan:
+Lifetime access ($49 per seat) includes **unlimited artists**. Workspaces on the [older tiered plans](/billing/plans/#older-tiered-lifetime-plans) keep these limits:
 
 | Plan | Artist limit |
 |------|-------------|
+| **Lifetime seats** | Unlimited |
 | **Solo Lifetime** | 5 |
 | **Label Lifetime** | 75 |
 | **Agency / Pro Lifetime** | Unlimited |
